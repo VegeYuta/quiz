@@ -1,0 +1,29 @@
+#quiz-container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .choice-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .choice-btn:hover {
+    background-color: #ddd;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #score {
+    margin-top: 10px;
+  }
+  

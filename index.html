@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クイズゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="quiz-conteiner">
+        <h1 id="question">問題文</h1>
+        <div id="choices">
+            <button class="choise-btn" data-index="0">選択肢1</button>
+            <button class="choise-btn" data-index="1">選択肢2</button>
+            <button class="choise-btn" data-index="2">選択肢3</button>
+            <button class="choise-btn" data-index="3">選択肢4</button>
+        </div>
+        <div id ="result"></div>
+        <div id="score">スコア: <span id="score-value"></span></div>
+        <button id="start-button">スタート</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
